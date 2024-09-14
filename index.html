@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dot</title>
+    <style>
+      .text-container {
+        border: 1px solid lightgray;
+        padding: 20px;
+        width: 80%;
+        text-align: center;
+      }
+
+      .text-container h1 {
+        color: green;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      .text-container p {
+        font-size: 18px;
+        color: black;
+      }
+
+      .styled-link {
+        color: blue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body style="background-color: ghostwhite">
+    <div style="background-color: white">
+      <h1>the border-style Proporty</h1>
+      <p
+        style="
+          border: 3px solid black;
+          border-top-style: dashed;
+          border-bottom-style: dashed;
+          border-left: 4px solid red;
+          border-right: 4px solid red;
+        "
+      >
+        A border
+      </p>
+      <br />
+    </div>
+    <div
+      style="
+        background-color: white;
+        width: fit-content;
+        padding: 20px 20px 20px 20px;
+        margin-top: 20px;
+      "
+    >
+      <div
+        style="
+          width: 200px;
+          height: 200px;
+          border-radius: 30px;
+          background-color: white;
+          padding: 20px;
+          border: 2px solid black;
+        "
+      >
+        <p>Rounded corner!</p>
+      </div>
+      <div
+        style="
+          width: 200px;
+          height: 200px;
+          border-radius: 30px;
+          background-color: white;
+          padding: 20px;
+
+          margin-top: 15px;
+          background-color: yellow;
+        "
+      >
+        <p>Rounded corner!</p>
+      </div>
+    </div>
+    <div
+      class="text-container"
+      style="background-color: white; margin-top: 5px"
+    >
+      <h1>TEXT FORMATTING</h1>
+      <p>
+        This text is styled <a href="#" class="styled-link">"Try it"</a> link.
+      </p>
+    </div>
+    <img src="bg.png" alt="" />
+  </body>
+</html>
